@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DAD1276D8098E3921608AA9 /* Pods_My_JarvisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAA40406424790A30C59AC4 /* Pods_My_JarvisUITests.framework */; };
+		8C13835773377A7920F7D6C4 /* Pods_My_JarvisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA3305EFDBD275170DFDAF /* Pods_My_JarvisTests.framework */; };
+		C4DD264E5FEE602F55D5B0F3 /* Pods_My_Jarvis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4760087D6B7A395FD0429C /* Pods_My_Jarvis.framework */; };
+		ED11B6661E6C42BA00276AD6 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11B6651E6C42BA00276AD6 /* MyLabel.swift */; };
+		ED1980AB1E6AAFF500D05FD7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1980AA1E6AAFF500D05FD7 /* Weather.swift */; };
+		ED1980AD1E6AB00100D05FD7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1980AC1E6AB00100D05FD7 /* APIManager.swift */; };
+		ED1980AF1E6AFC7000D05FD7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1980AE1E6AFC7000D05FD7 /* MainViewController.swift */; };
+		ED1980B11E6B348800D05FD7 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1980B01E6B348800D05FD7 /* ZFRippleButton.swift */; };
+		ED1980B31E6B4B5600D05FD7 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1980B21E6B4B5600D05FD7 /* settingsViewController.swift */; };
+		ED4968991E6A148200818D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4968981E6A148200818D01 /* AppDelegate.swift */; };
+		ED49689B1E6A148200818D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49689A1E6A148200818D01 /* ViewController.swift */; };
+		ED49689E1E6A148200818D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49689C1E6A148200818D01 /* Main.storyboard */; };
+		ED4968A01E6A148200818D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49689F1E6A148200818D01 /* Assets.xcassets */; };
+		ED4968A31E6A148200818D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4968A11E6A148200818D01 /* LaunchScreen.storyboard */; };
+		ED4968AE1E6A148200818D01 /* My_JarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4968AD1E6A148200818D01 /* My_JarvisTests.swift */; };
+		ED4968B91E6A148200818D01 /* My_JarvisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4968B81E6A148200818D01 /* My_JarvisUITests.swift */; };
+		EDCBCD991E7401E8002A240A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBCD971E7401E8002A240A /* Constants.swift */; };
+		EDCBCD9A1E7401E8002A240A /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBCD981E7401E8002A240A /* RateMyApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4968AA1E6A148200818D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49688D1E6A148200818D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4968941E6A148200818D01;
+			remoteInfo = "My Jarvis";
+		};
+		ED4968B51E6A148200818D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49688D1E6A148200818D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4968941E6A148200818D01;
+			remoteInfo = "My Jarvis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A94B30479589F20AC3847B3 /* Pods-My JarvisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My JarvisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My JarvisTests/Pods-My JarvisTests.release.xcconfig"; sourceTree = "<group>"; };
+		36E045D2ABC741B0E3FF7A34 /* Pods-My JarvisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My JarvisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My JarvisUITests/Pods-My JarvisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52AA3305EFDBD275170DFDAF /* Pods_My_JarvisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_JarvisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EA794307DC153617098341 /* Pods-My Jarvis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Jarvis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Jarvis/Pods-My Jarvis.debug.xcconfig"; sourceTree = "<group>"; };
+		8DAA40406424790A30C59AC4 /* Pods_My_JarvisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_JarvisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4760087D6B7A395FD0429C /* Pods_My_Jarvis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Jarvis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89E10367A84593AB5359369 /* Pods-My Jarvis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Jarvis.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Jarvis/Pods-My Jarvis.release.xcconfig"; sourceTree = "<group>"; };
+		D8E60F116AD06BEF76B0D94E /* Pods-My JarvisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My JarvisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My JarvisTests/Pods-My JarvisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E1CE54B03B0914D2DD2826 /* Pods-My JarvisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My JarvisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My JarvisUITests/Pods-My JarvisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED11B6651E6C42BA00276AD6 /* MyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		ED1980AA1E6AAFF500D05FD7 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		ED1980AC1E6AB00100D05FD7 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		ED1980AE1E6AFC7000D05FD7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED1980B01E6B348800D05FD7 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
+		ED1980B21E6B4B5600D05FD7 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		ED4968951E6A148200818D01 /* My Speaking Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Speaking Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4968981E6A148200818D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED49689A1E6A148200818D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED49689D1E6A148200818D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED49689F1E6A148200818D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4968A21E6A148200818D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4968A41E6A148200818D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4968A91E6A148200818D01 /* My Speaking ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Speaking ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4968AD1E6A148200818D01 /* My_JarvisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JarvisTests.swift; sourceTree = "<group>"; };
+		ED4968AF1E6A148200818D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4968B41E6A148200818D01 /* My Speaking ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Speaking ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4968B81E6A148200818D01 /* My_JarvisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JarvisUITests.swift; sourceTree = "<group>"; };
+		ED4968BA1E6A148200818D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCBCD971E7401E8002A240A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDCBCD981E7401E8002A240A /* RateMyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4968921E6A148200818D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD264E5FEE602F55D5B0F3 /* Pods_My_Jarvis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968A61E6A148200818D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C13835773377A7920F7D6C4 /* Pods_My_JarvisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968B11E6A148200818D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAD1276D8098E3921608AA9 /* Pods_My_JarvisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8707CD430D1927373C7A50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B4760087D6B7A395FD0429C /* Pods_My_Jarvis.framework */,
+				52AA3305EFDBD275170DFDAF /* Pods_My_JarvisTests.framework */,
+				8DAA40406424790A30C59AC4 /* Pods_My_JarvisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96607DF3C446EC659ABB567A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62EA794307DC153617098341 /* Pods-My Jarvis.debug.xcconfig */,
+				C89E10367A84593AB5359369 /* Pods-My Jarvis.release.xcconfig */,
+				D8E60F116AD06BEF76B0D94E /* Pods-My JarvisTests.debug.xcconfig */,
+				0A94B30479589F20AC3847B3 /* Pods-My JarvisTests.release.xcconfig */,
+				36E045D2ABC741B0E3FF7A34 /* Pods-My JarvisUITests.debug.xcconfig */,
+				E1E1CE54B03B0914D2DD2826 /* Pods-My JarvisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED1980A61E6AAFA600D05FD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED49689A1E6A148200818D01 /* ViewController.swift */,
+				ED1980B21E6B4B5600D05FD7 /* settingsViewController.swift */,
+				ED1980AE1E6AFC7000D05FD7 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ED1980A71E6AAFC700D05FD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED1980B01E6B348800D05FD7 /* ZFRippleButton.swift */,
+				ED11B6651E6C42BA00276AD6 /* MyLabel.swift */,
+				ED4968981E6A148200818D01 /* AppDelegate.swift */,
+				EDCBCD971E7401E8002A240A /* Constants.swift */,
+				EDCBCD981E7401E8002A240A /* RateMyApp.swift */,
+				ED49689F1E6A148200818D01 /* Assets.xcassets */,
+				ED4968A41E6A148200818D01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED1980A81E6AAFD300D05FD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED49689C1E6A148200818D01 /* Main.storyboard */,
+				ED4968A11E6A148200818D01 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ED1980A91E6AAFDC00D05FD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1980AA1E6AAFF500D05FD7 /* Weather.swift */,
+				ED1980AC1E6AB00100D05FD7 /* APIManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED49688C1E6A148200818D01 = {
+			isa = PBXGroup;
+			children = (
+				ED4968971E6A148200818D01 /* My Jarvis */,
+				ED4968AC1E6A148200818D01 /* My JarvisTests */,
+				ED4968B71E6A148200818D01 /* My JarvisUITests */,
+				ED4968961E6A148200818D01 /* Products */,
+				96607DF3C446EC659ABB567A /* Pods */,
+				7E8707CD430D1927373C7A50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4968961E6A148200818D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4968951E6A148200818D01 /* My Speaking Clock.app */,
+				ED4968A91E6A148200818D01 /* My Speaking ClockTests.xctest */,
+				ED4968B41E6A148200818D01 /* My Speaking ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4968971E6A148200818D01 /* My Jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				ED1980A71E6AAFC700D05FD7 /* Supporting Files */,
+				ED1980A91E6AAFDC00D05FD7 /* Model */,
+				ED1980A61E6AAFA600D05FD7 /* Controller */,
+				ED1980A81E6AAFD300D05FD7 /* View */,
+			);
+			path = "My Jarvis";
+			sourceTree = "<group>";
+		};
+		ED4968AC1E6A148200818D01 /* My JarvisTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4968AD1E6A148200818D01 /* My_JarvisTests.swift */,
+				ED4968AF1E6A148200818D01 /* Info.plist */,
+			);
+			path = "My JarvisTests";
+			sourceTree = "<group>";
+		};
+		ED4968B71E6A148200818D01 /* My JarvisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4968B81E6A148200818D01 /* My_JarvisUITests.swift */,
+				ED4968BA1E6A148200818D01 /* Info.plist */,
+			);
+			path = "My JarvisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4968941E6A148200818D01 /* My Speaking Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4968BD1E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking Clock" */;
+			buildPhases = (
+				F13717AD750F94778B9CDC2C /* [CP] Check Pods Manifest.lock */,
+				ED4968911E6A148200818D01 /* Sources */,
+				ED4968921E6A148200818D01 /* Frameworks */,
+				ED4968931E6A148200818D01 /* Resources */,
+				04A391AA5A4D4149C501AEF1 /* [CP] Embed Pods Frameworks */,
+				A71045184D4533B55611F3C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Speaking Clock";
+			productName = "My Jarvis";
+			productReference = ED4968951E6A148200818D01 /* My Speaking Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4968A81E6A148200818D01 /* My Speaking ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4968C01E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking ClockTests" */;
+			buildPhases = (
+				68CF6702050D09C882EAFF5F /* [CP] Check Pods Manifest.lock */,
+				ED4968A51E6A148200818D01 /* Sources */,
+				ED4968A61E6A148200818D01 /* Frameworks */,
+				ED4968A71E6A148200818D01 /* Resources */,
+				34358A3FC9449CB254CB53E5 /* [CP] Embed Pods Frameworks */,
+				8A51B17AE1D560F2DA0AED9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4968AB1E6A148200818D01 /* PBXTargetDependency */,
+			);
+			name = "My Speaking ClockTests";
+			productName = "My JarvisTests";
+			productReference = ED4968A91E6A148200818D01 /* My Speaking ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4968B31E6A148200818D01 /* My Speaking ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4968C31E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking ClockUITests" */;
+			buildPhases = (
+				2CB4E23F165A1CC245F07521 /* [CP] Check Pods Manifest.lock */,
+				ED4968B01E6A148200818D01 /* Sources */,
+				ED4968B11E6A148200818D01 /* Frameworks */,
+				ED4968B21E6A148200818D01 /* Resources */,
+				D66D9C2592C4BF07E5910F59 /* [CP] Embed Pods Frameworks */,
+				138EE1EF1D98CC5F989235C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4968B61E6A148200818D01 /* PBXTargetDependency */,
+			);
+			name = "My Speaking ClockUITests";
+			productName = "My JarvisUITests";
+			productReference = ED4968B41E6A148200818D01 /* My Speaking ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED49688D1E6A148200818D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = weza;
+				TargetAttributes = {
+					ED4968941E6A148200818D01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+					};
+					ED4968A81E6A148200818D01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4968941E6A148200818D01;
+					};
+					ED4968B31E6A148200818D01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4968941E6A148200818D01;
+					};
+				};
+			};
+			buildConfigurationList = ED4968901E6A148200818D01 /* Build configuration list for PBXProject "My Speaking Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED49688C1E6A148200818D01;
+			productRefGroup = ED4968961E6A148200818D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4968941E6A148200818D01 /* My Speaking Clock */,
+				ED4968A81E6A148200818D01 /* My Speaking ClockTests */,
+				ED4968B31E6A148200818D01 /* My Speaking ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4968931E6A148200818D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4968A31E6A148200818D01 /* LaunchScreen.storyboard in Resources */,
+				ED4968A01E6A148200818D01 /* Assets.xcassets in Resources */,
+				ED49689E1E6A148200818D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968A71E6A148200818D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968B21E6A148200818D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A391AA5A4D4149C501AEF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Jarvis/Pods-My Jarvis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		138EE1EF1D98CC5F989235C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My JarvisUITests/Pods-My JarvisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB4E23F165A1CC245F07521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34358A3FC9449CB254CB53E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My JarvisTests/Pods-My JarvisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CF6702050D09C882EAFF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A51B17AE1D560F2DA0AED9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My JarvisTests/Pods-My JarvisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71045184D4533B55611F3C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Jarvis/Pods-My Jarvis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66D9C2592C4BF07E5910F59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My JarvisUITests/Pods-My JarvisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13717AD750F94778B9CDC2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4968911E6A148200818D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1980AD1E6AB00100D05FD7 /* APIManager.swift in Sources */,
+				ED49689B1E6A148200818D01 /* ViewController.swift in Sources */,
+				ED1980AB1E6AAFF500D05FD7 /* Weather.swift in Sources */,
+				ED1980B11E6B348800D05FD7 /* ZFRippleButton.swift in Sources */,
+				ED4968991E6A148200818D01 /* AppDelegate.swift in Sources */,
+				ED1980AF1E6AFC7000D05FD7 /* MainViewController.swift in Sources */,
+				ED11B6661E6C42BA00276AD6 /* MyLabel.swift in Sources */,
+				EDCBCD9A1E7401E8002A240A /* RateMyApp.swift in Sources */,
+				ED1980B31E6B4B5600D05FD7 /* settingsViewController.swift in Sources */,
+				EDCBCD991E7401E8002A240A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968A51E6A148200818D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4968AE1E6A148200818D01 /* My_JarvisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4968B01E6A148200818D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4968B91E6A148200818D01 /* My_JarvisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4968AB1E6A148200818D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4968941E6A148200818D01 /* My Speaking Clock */;
+			targetProxy = ED4968AA1E6A148200818D01 /* PBXContainerItemProxy */;
+		};
+		ED4968B61E6A148200818D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4968941E6A148200818D01 /* My Speaking Clock */;
+			targetProxy = ED4968B51E6A148200818D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED49689C1E6A148200818D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49689D1E6A148200818D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4968A11E6A148200818D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4968A21E6A148200818D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4968BB1E6A148200818D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4968BC1E6A148200818D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4968BE1E6A148200818D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EA794307DC153617098341 /* Pods-My Jarvis.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My Jarvis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-Jarvis-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED4968BF1E6A148200818D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89E10367A84593AB5359369 /* Pods-My Jarvis.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My Jarvis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-Jarvis-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED4968C11E6A148200818D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E60F116AD06BEF76B0D94E /* Pods-My JarvisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My JarvisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-JarvisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Speaking Clock.app/My Speaking Clock";
+			};
+			name = Debug;
+		};
+		ED4968C21E6A148200818D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A94B30479589F20AC3847B3 /* Pods-My JarvisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My JarvisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-JarvisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Speaking Clock.app/My Speaking Clock";
+			};
+			name = Release;
+		};
+		ED4968C41E6A148200818D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E045D2ABC741B0E3FF7A34 /* Pods-My JarvisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My JarvisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-JarvisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Jarvis";
+			};
+			name = Debug;
+		};
+		ED4968C51E6A148200818D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E1CE54B03B0914D2DD2826 /* Pods-My JarvisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "My JarvisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.My-JarvisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Jarvis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4968901E6A148200818D01 /* Build configuration list for PBXProject "My Speaking Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4968BB1E6A148200818D01 /* Debug */,
+				ED4968BC1E6A148200818D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4968BD1E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4968BE1E6A148200818D01 /* Debug */,
+				ED4968BF1E6A148200818D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4968C01E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4968C11E6A148200818D01 /* Debug */,
+				ED4968C21E6A148200818D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4968C31E6A148200818D01 /* Build configuration list for PBXNativeTarget "My Speaking ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4968C41E6A148200818D01 /* Debug */,
+				ED4968C51E6A148200818D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED49688D1E6A148200818D01 /* Project object */;
+}

@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlertOnboarding (1.9)
+  - DatePickerDialog (1.1.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftDateExtension (0.0.6)
+  - SwiftSiriWaveformView (2.0.0)
+  - SwiftTheme (0.3.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AlertOnboarding
+  - DatePickerDialog
+  - SDWebImage
+  - SwiftDateExtension
+  - SwiftSiriWaveformView
+  - SwiftTheme
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlertOnboarding: 0c97f5c4feac0a4e914bae5d530f66b4dbc6b771
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftDateExtension: 5ac743931d8ca8369ecf115d1eb3badccf5c1c45
+  SwiftSiriWaveformView: 85328da51cf5f3c6a0dbcdf9186f4417edf1b538
+  SwiftTheme: 15ff615b8d2a84d24259611f136e1635c747cc77
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: dc33c75c9112e74150af935691cb94f81378d4af
+
+COCOAPODS: 1.1.1
